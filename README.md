@@ -57,17 +57,17 @@ Add a super user so that you will be able to log in to the admin and API panels.
 ```
 cd client_registration
 python3 manage.py makemigrations
+python3 manage.py makemigrations registration_app
 python3 manage.py migrate
 python3 manage.py createsuperuser
 python3 manage.py runserver
-
 ```
 Go to localhost:8000 and try adding someone to your database. You should see the company you added on localhost:8000/api/companies
 
 To review the email and Teams-functionality, check out the commented out code in **client_registration/registration_app/views.py**
 
 ## Summing up
-This was a fun "proof-of-concept". XTRF is a very big TMS that aims to satisfy every thinkable need. For us though, the translation business is mostly very fast-moving and fluid. Why invest to much time in a potential client when the likelihood of them picking one of the fifteen other agencies they contacted is so high?
+This was a fun "proof-of-concept". XTRF is a very big TMS that aims to satisfy every thinkable need. For us though, the translation business is mostly very fast-moving and fluid. Why invest too much time in a potential client when the likelihood of them picking one of the fifteen other agencies they contacted is so high?
 
 Advantages of automating client registration in XTRF:
 * Instantanous registration within seconds
