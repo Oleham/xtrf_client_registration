@@ -1,0 +1,4 @@
+client_registration/db.sqlite3
+__pycache__/
+*.pyc
+client_registration/registration_app/migrations/
