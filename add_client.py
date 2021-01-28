@@ -40,26 +40,26 @@ def post_to_xtrf(company):
 
     #Logic to get right categories
     if countryId == 209:
-        #Sverige
-        salesPersonId = 70 #Maria Z.
-        projectManagerId =  77 #Sofie N.
-        categoriesIds = [173] #Categories Nysalg
+        #Country1
+        salesPersonId = 70 
+        projectManagerId =  77 
+        categoriesIds = [173] 
         branchId = 2
         taxType = "Momsnr."
 
     elif countryId == 60:
-        #Danmark
-        salesPersonId = 42 #Anne D.
-        projectManagerId =  66 #Nina S.
-        categoriesIds = [173] #Categories Nysalg
+        #Country2
+        salesPersonId = 42 
+        projectManagerId =  66 
+        categoriesIds = [173] 
         branchId = 5
         taxType = "CVR"
 
     elif countryId == 165:
-        #Norge
-        salesPersonId = 79 #Ole H.
-        projectManagerId =  48 #Pia L.
-        categoriesIds = [172, 173] #Categories Ole and Nysalg
+        #Country3
+        salesPersonId = 79 
+        projectManagerId =  48 
+        categoriesIds = [172, 173]
         branchId = 3
         taxType = "Orgnr"
 
